@@ -7385,8 +7385,8 @@
         {
             "id": 6,
             "regionId": 53,
-            "taxe": 51,
-            "exoVehiculePropre": 50
+            "taxe": 55,
+            "exoVehiculePropre": 0
         },
         {
             "id": 7,
@@ -7422,7 +7422,7 @@
             "id": 14,
             "regionId": 11,
             "taxe": 46.15,
-            "exoVehiculePropre": 100
+            "exoVehiculePropre": 0
         },
         {
             "id": 15,
@@ -7481,7 +7481,7 @@
         {
             "id": 29,
             "regionId": 76,
-            "taxe": 44,
+            "taxe": 47,
             "exoVehiculePropre": 100
         },
         {
@@ -7494,7 +7494,7 @@
             "id": 31,
             "regionId": 27,
             "taxe": 51,
-            "exoVehiculePropre": 100
+            "exoVehiculePropre": 0
         }
     ],
     "regions": [

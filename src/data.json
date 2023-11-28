@@ -144,7 +144,7 @@
         },
         {
             "id": 2,
-            "typeVehicule": "Camionnette, Utilitaire pour le transport de marchandises jusqu'à 3,5 tonnnes (CTTE, N1)",
+            "typeVehicule": "Camionnette, Utilitaire pour le transport de marchandises jusqu'à 3,5 tonnes (CTTE, N1)",
             "baremeMoins10": 1,
             "baremePlus10": 0.5,
             "taxeFPTransport": 34
@@ -7371,12 +7371,6 @@
     ],
     "taxeRegionale": [
         {
-            "id": 1,
-            "regionId": 42,
-            "taxe": 48,
-            "exoVehiculePropre": 0
-        },
-        {
             "id": 4,
             "regionId": 28,
             "taxe": 35,
@@ -7431,22 +7425,10 @@
             "exoVehiculePropre": 0
         },
         {
-            "id": 18,
-            "regionId": 41,
-            "taxe": 48,
-            "exoVehiculePropre": 0
-        },
-        {
             "id": 19,
             "regionId": 2,
             "taxe": 30,
             "exoVehiculePropre": 0
-        },
-        {
-            "id": 21,
-            "regionId": 31,
-            "taxe": 34.5,
-            "exoVehiculePropre": 50
         },
         {
             "id": 22,
@@ -7482,7 +7464,7 @@
             "id": 29,
             "regionId": 76,
             "taxe": 47,
-            "exoVehiculePropre": 100
+            "exoVehiculePropre": 0
         },
         {
             "id": 30,
@@ -7531,32 +7513,17 @@
         {
             "id": 7,
             "codeRegion": 21,
-            "name": "Champagne-Ardennes (Grand Est)"
+            "name": "Grand Est"
         },
         {
             "id": 8,
             "codeRegion": 22,
-            "name": "Picardie (Hauts-de-France)"
+            "name": "Hauts-de-France"
         },
         {
             "id": 10,
             "codeRegion": 24,
             "name": "Centre-Val de Loire"
-        },
-        {
-            "id": 13,
-            "codeRegion": 31,
-            "name": "Nord-Pas-de-Calais (Hauts-de-France)"
-        },
-        {
-            "id": 14,
-            "codeRegion": 41,
-            "name": "Lorraine (Grand Est)"
-        },
-        {
-            "id": 15,
-            "codeRegion": 42,
-            "name": "Alsace (Grand Est)"
         },
         {
             "id": 17,
@@ -7675,7 +7642,7 @@
             "id": 12,
             "codeDep": "67",
             "name": "Bas-Rhin",
-            "regionId": 42
+            "regionId": 21
         },
         {
             "id": 13,
@@ -7879,7 +7846,7 @@
             "id": 46,
             "codeDep": "68",
             "name": "Haut-Rhin",
-            "regionId": 42
+            "regionId": 21
         },
         {
             "id": 47,
@@ -8017,13 +7984,13 @@
             "id": 69,
             "codeDep": "54",
             "name": "Meurthe-et-Moselle",
-            "regionId": 41
+            "regionId": 21
         },
         {
             "id": 70,
             "codeDep": "55",
             "name": "Meuse",
-            "regionId": 41
+            "regionId": 21
         },
         {
             "id": 71,
@@ -8035,7 +8002,7 @@
             "id": 72,
             "codeDep": "57",
             "name": "Moselle",
-            "regionId": 41
+            "regionId": 21
         },
         {
             "id": 73,
@@ -8047,7 +8014,7 @@
             "id": 74,
             "codeDep": "59",
             "name": "Nord",
-            "regionId": 31
+            "regionId": 22
         },
         {
             "id": 75,
@@ -8071,7 +8038,7 @@
             "id": 78,
             "codeDep": "62",
             "name": "Pas-de-Calais",
-            "regionId": 31
+            "regionId": 22
         },
         {
             "id": 79,
@@ -8197,7 +8164,7 @@
             "id": 99,
             "codeDep": "88",
             "name": "Vosges",
-            "regionId": 41
+            "regionId": 21
         },
         {
             "id": 100,
@@ -8219,7 +8186,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 2
         },
         {
             "id": 2,
@@ -8227,15 +8195,17 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 3
         },
         {
             "id": 3,
-            "energie": "Véhicule hybride fonctionnant à l'essence\/électricité ou gazole\/électricité (EE, EH, GL, GH)",
+            "energie": "Véhicule hybride rechargeable fonctionnant à l'essence\/électricité ou gazole\/électricité (EE, GL)",
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": true,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 4
         },
         {
             "id": 4,
@@ -8243,7 +8213,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": true,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 6
         },
         {
             "id": 5,
@@ -8251,7 +8222,8 @@
             "pourcentMalusCO2": 60,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": true,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 7
         },
         {
             "id": 6,
@@ -8259,7 +8231,8 @@
             "pourcentMalusCO2": 60,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": true,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 8
         },
         {
             "id": 7,
@@ -8267,7 +8240,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": true,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 9
         },
         {
             "id": 8,
@@ -8275,7 +8249,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": true,
-            "energieTresPropre": true
+            "energieTresPropre": true,
+            "classement": 1
         },
         {
             "id": 9,
@@ -8283,7 +8258,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 10
         },
         {
             "id": 10,
@@ -8291,7 +8267,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 11
         },
         {
             "id": 11,
@@ -8299,7 +8276,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 15
         },
         {
             "id": 12,
@@ -8307,7 +8285,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 12
         },
         {
             "id": 13,
@@ -8315,7 +8294,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 13
         },
         {
             "id": 14,
@@ -8323,7 +8303,8 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 16
         },
         {
             "id": 15,
@@ -8331,7 +8312,17 @@
             "pourcentMalusCO2": 100,
             "pourcentTaxeAdditionnelle": 100,
             "energiePropre": false,
-            "energieTresPropre": false
+            "energieTresPropre": false,
+            "classement": 14
+        },
+        {
+            "id": 16,
+            "energie": "Véhicule hybride non-rechargeable fonctionnant à l'essence\/électricité ou gazole\/électricité (EH, GH)",
+            "pourcentMalusCO2": 100,
+            "pourcentTaxeAdditionnelle": 100,
+            "energiePropre": true,
+            "energieTresPropre": false,
+            "classement": 5
         }
     ],
     "PlafondMalus": [
